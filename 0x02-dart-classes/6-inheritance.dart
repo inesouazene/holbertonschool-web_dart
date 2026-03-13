@@ -10,6 +10,12 @@
 * Create a new instance called fromJson it accept Map as parameter should return every value inside it.
 
 * Create a method called toString() that returns a string => User(id : id ,name: name, age: age, height: height);
+
+* Create a new property in the User class called user_password that contain the password.
+
+* Add null check to all targets in 6-password.dart and null coalescing operator if necessary.
+
+* Call isValid method from Password class after you passed user_password to Password class.
 */
 
 import '6-password.dart';
