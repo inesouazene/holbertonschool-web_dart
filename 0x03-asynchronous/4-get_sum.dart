@@ -2,7 +2,7 @@ import '4-util.dart';
 import 'dart:convert';
 
 // function calculateTotal() that calculates the total price of items for a certain user
-Future<double> calculateTotal() async {
+Future<num> calculateTotal() async {
   try {
     String userData = await fetchUserData();
     Map<String, dynamic> userDataMap = jsonDecode(userData);
